@@ -27,18 +27,20 @@
 
 .contact_form_box2 {
   height: 3em;
-  width: 60%;
+  width: 61%;
   padding-left: 2%;
   font-size: 1em;
   border-radius: 20px;
+  border: 2px solid dimgrey;
 }
 
 .contact_txtarea {
   width: 60%;
   height: 12em;
-  font-size: 1em;
+  font-size: 1.1em;
   padding: 2%;
   border-radius: 20px;
+  border: 2px solid dimgrey;
 }
 
 .contact_form_ttl {
@@ -69,6 +71,22 @@
   background: rgba(211, 116, 116, 37%);
   transition: 0.4s;
   transform: translateY(-5px);
+}
+
+/* ～1024px */
+@media screen and (max-width: 1024px) {
+  .contact_form_ttl {
+    width: 25%;
+    font-size: 1.2em;
+  }
+
+  .contact_form_box2 {
+    margin-left: 5%;
+  }
+
+  .contact_txtarea {
+    margin-left: 5%;
+  }
 }
 
 /* ～768px */
