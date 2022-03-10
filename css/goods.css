@@ -1,0 +1,207 @@
+.goods_list {
+  display: flex;
+}
+
+.goods_list img {
+  width: 80%;
+  height: 70%;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px rgba(170, 167, 167, 0.911);
+}
+
+.goods_item1,
+.goods_item3 {
+  margin-top: 5%;
+  margin-bottom: 12%;
+}
+
+.goods_item2 {
+  margin-top: 12%;
+  margin-bottom: 5%;
+}
+
+.goods_txt {
+  width: 80%;
+  height: auto;
+}
+
+.goods_txt h4 {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.goods_txt p {
+  text-align: center;
+}
+
+.goods_item1:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.goods_item2:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.goods_item3:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.earrings_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.earrings_list img {
+  width: 80%;
+  border-radius: 30px;
+}
+
+.earrings_item1,
+.earrings_item2,
+.earrings_item3,
+.earrings_item4 {
+  margin: 5% auto;
+}
+
+.earrings_txt {
+  width: 80%;
+  text-align: center;
+}
+
+.yen {
+  text-align: center;
+}
+
+.hair_list {
+  display: flex;
+}
+
+.hair_list img {
+  width: 80%;
+  height: 70%;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px rgba(170, 167, 167, 0.911);
+}
+
+.hair_item1,
+.hair_item3 {
+  margin-top: 5%;
+  margin-bottom: 12%;
+}
+
+.hair_item2 {
+  margin-top: 12%;
+  margin-bottom: 5%;
+}
+
+.hair_txt {
+  width: 80%;
+  height: auto;
+}
+
+.hair_txt h4 {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.hair_txt p {
+  text-align: center;
+}
+
+.other_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.other_list img {
+  width: 80%;
+  border-radius: 30px;
+}
+
+.other_txt {
+  width: 80%;
+  text-align: center;
+}
+
+.other_item1,
+.other_item2,
+.other_item3,
+.other_item4 {
+  margin: 5% auto;
+}
+
+/* レスポンシブ */
+/* ～1024px */
+@media screen and (max-width: 1024px) {
+  .goods_list,
+  .hair_list,
+  .earrings_list,
+  .other_list {
+    display: block;
+    text-align: center;
+  }
+
+  .goods_list img,
+  .hair_list img,
+  .earrings_list img,
+  .other_list img {
+    width: 60%;
+  }
+
+  .goods_txt,
+  .hair_txt,
+  .earrings_txt,
+  .other_txt {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .hair_list {
+    display: block;
+  }
+}
+
+/* ～768px */
+@media screen and (max-width: 768px) {
+  .goods_list,
+  .hair_list,
+  .earrings_list,
+  .other_list {
+    display: block;
+    text-align: center;
+  }
+
+  .goods_list img,
+  .hair_list img,
+  .earrings_list img,
+  .other_list img {
+    width: 60%;
+  }
+
+  .goods_txt,
+  .hair_txt,
+  .earrings_txt,
+  .other_txt {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .hair_list {
+    display: block;
+  }
+}
+
+/* ～480px */
+@media screen and (max-width: 480px) {
+  .goods_txt,
+  .earrings_txt,
+  .hair_txt,
+  .other_txt {
+    font-size: 0.5em;
+  }
+}

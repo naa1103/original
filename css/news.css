@@ -1,0 +1,31 @@
+.news_txt {
+  display: block;
+  background-color: cornsilk;
+  margin: 5% auto;
+  border-radius: 30px;
+  width: 90%;
+  height: auto;
+}
+
+.news_txt ul {
+  margin-left: 3%;
+}
+
+.news_txt ul li {
+  margin-top: 0.8%;
+  font-size: 1.2em;
+  color: rgb(202, 88, 88);
+}
+
+.news_txt ul p {
+  color: gray;
+}
+
+/* レスポンシブ */
+/* ～480px */
+@media screen and (max-width: 480px) {
+  .news_txt {
+    font-size: 0.8em;
+    height: auto;
+  }
+}

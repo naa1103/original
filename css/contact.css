@@ -1,0 +1,114 @@
+.contact_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_txt {
+  width: 70%;
+  line-height: 2;
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+}
+
+.contact_form {
+  width: 100%;
+  margin: 10% auto;
+}
+
+.contact_box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6%;
+}
+
+.contact_box._area {
+  align-items: baseline;
+}
+
+.contact_form_box2 {
+  height: 3em;
+  width: 60%;
+  padding-left: 2%;
+  font-size: 1em;
+  border-radius: 20px;
+}
+
+.contact_txtarea {
+  width: 60%;
+  height: 12em;
+  font-size: 1em;
+  padding: 2%;
+  border-radius: 20px;
+}
+
+.contact_form_ttl {
+  width: 15%;
+  height: 100%;
+  font-size: 1em;
+  position: relative;
+  text-align: center;
+  color: dimgrey;
+  background-color: rgba(211, 116, 116, 37%);
+  margin-right: 2%;
+  border-radius: 30px;
+}
+
+.contact_btn {
+  display: block;
+  color: dimgray;
+  background: rgba(246, 216, 216, 73%);
+  border-radius: 20px;
+  transition: 0.4s;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.contact_btn:hover {
+  color: rgb(48, 45, 45);
+  background: rgba(211, 116, 116, 37%);
+  transition: 0.4s;
+  transform: translateY(-5px);
+}
+
+/* ～768px */
+@media screen and (max-width: 768px) {
+  .contact_item p {
+    font-size: 1.15em;
+    width: 100%;
+  }
+
+  .contact_form_ttl {
+    font-size: 0.6em;
+  }
+}
+
+/* ～480px */
+@media screen and (max-width: 480px) {
+  .contact_item p {
+    font-size: 0.7em;
+  }
+
+  .contact_form_box2 {
+    margin-left: 10%;
+    width: 60%;
+    font-size: 0.5em;
+  }
+
+  .contact_txtarea {
+    margin-left: 10%;
+    font-size: 0.5em;
+  }
+
+  .contact_form_ttl {
+    width: 40%;
+    height: auto;
+    font-size: 0.6em;
+  }
+
+  .contact_btn {
+    width: 30%;
+    height: auto;
+    font-size: 0.5em;
+  }
+}
